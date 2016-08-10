@@ -80,3 +80,18 @@ p {
     font-weight: 500;
     text-transform: uppercase;
 }
+h3.highlight {
+    background-color: #2B2B87;
+    width: 220px;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+}
+h3.highlight:hover {
+    background: #eee;
+    transition: all 0.5s ease;
+    cursor: none;
+    color: #2B2B87;
+}
