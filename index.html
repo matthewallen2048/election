@@ -3,7 +3,7 @@
 
 <head>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link href="stylesheets/main.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Allen 2048</title>
@@ -12,24 +12,37 @@
 <body>
     <div class="navbar-fixed">
         <nav>
-    <div class="nav-wrapper container-fluid">
-      <a href="#!" class="brand-logo">Logo</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="issues.html">Issues</a></li>
-        <li><a href="getinvolved.html">Get Involved</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="issues.html">Sass</a></li>
-        <li><a href="getinvolved.html">Components</a></li>
-      </ul>
-    </div>
-  </nav>
+            <div class="nav-wrapper container-fluid">
+                <a href="#!" class="brand-logo">Matthew D. Allen</a>
+                <a href="#" data-activates="slide-out" class="button-collapse"><i style="font-size:27px !important" class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="issues.html">Issues</a></li>
+                    <li><a href="getinvolved.html">Get Involved</a></li>
+                </ul>
+                <ul id="slide-out" class="side-nav">
+                    <li>
+                        <div class="userView">
+                            <img class="background" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/White_House_Washington.JPG">
+                            <a href="#!user"><img class="circle" src="img/profile.jpg"></a>
+                            <a href="#!name"><span class="white-text name">Matthew Allen</span></a>
+                            <a href="#!email"><span class="white-text email">2048</span></a>
+                        </div>
+                    </li>
+                    <li><a href="#!">Issues</a></li>
+                    <li><a href="#!">Get Involved</a></li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li><a class="subheader">Contact</a></li>
+                    <li><a class="waves-effect" href="mailto:matthewdallen25@gmail.com">Email Me</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
     <section id="home">
         <div class="hero">
             <div class="hero-content">
-                <h3 class="white-text">Matthew Allen 2048</h3>
+                <h3 class="white-text highlight">Matthew Allen 2048</h3>
                 <h5 class="white-text"><i>Consider the possiblities</i></h5>
             </div>
         </div>
@@ -37,106 +50,68 @@
     <div class="container">
         <div class="row">
             <div class="col m6">
-                <h4>Matthew Allen 2048</h4>
-                <p>Matthew Allen is currently a 14 year-old attending Andover High School, in Massachusetts. He is passionate about promoting liberal values, and has done that throughout his community.</p></div>
-            <div class="col m6"> <img src="http://matthewallen2048.github.io/election/img/logo.png" class="center-block responsive-img" width="110%"> </div>
+                <h4 class="highlight who">Who is Matthew</h4>
+                <p>Matthew Allen is currently a 15 year-old attending Andover High School, in Massachusetts. He is passionate about promoting liberal values, and has done that throughout his community. Left, is an image of Matthew advocating for gun sense laws in his home state of Massachusetts.</p>
+            </div>
+            <div class="col m6">
+                <img src="img/gunsense.jpg" class="center-block responsive-img">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col m6 right">
+                <h4 class="highlight dems">Supporting Dems</h4>
+                <p>Matthew's got a long time to wait until he launches his campaign. Until then, he's campaigning locally for town, state, and federal officials. He wants to ensure a win for the Democrats in November and will spend his time to do so.</p>
+            </div>
+            <div class="col m6 left">
+                <img src="img/litalien.jpg" class="center-block responsive-img">
+            </div>
         </div>
         <br>
         <br>
         <br>
         <br>
+        <h4 class="light col s12 highlight news">News and Updates</h4>
         <div class="row dark">
-            <h4 class="white-text light col s12">News and Updates</h4>
-                <div class="col l4 hide-on-med-and-down" style="height: 200px;">
-                    <div class="col s12 white-text" style="background-color: #009688; height: 50px; text-align: center">
+
+            <div class="col l4 hide-on-med-and-down" style="height: 300px;">
+                <div class="col s12 white-text" style="background-color: #009688; padding-top:20px; padding-bottom:20px; text-align: center">
                     <p>Wednesday</p>
-                    </div>
-                    <div class="col s12 white-text" style="background-color: #4DB6AC; height: 150px; text-align: center">
+                </div>
+                <div class="col s12 white-text" style="background-color: #4DB6AC; height: 190px; text-align: center">
                     <div class="row" style="text-align: center">
-                        <h3>20</h3>
-                        <i style="font-size: 18px; font-weight: 300">SEPTEMBER</i><br>
+                        <h1>20</h1>
+                        <i style="font-size: 18px; font-weight: 300">SEPTEMBER</i>
+                        <br>
                         <i style="font-size: 18px; font-weight: 300">2015</i>
                     </div>
-                    </div>
                 </div>
-                <div class="col l1 hide-on-med-and-down" style="color: #e8eaf6"> a</div>
-                <div class="col l7 m12" style="height: 83px">
-                <div class="white" style="height: 200px; overflow-y: scroll; padding: 20px">
+            </div>
+            <div class="col l1 hide-on-med-and-down" style="color: #e8eaf6"> a</div>
+            <div class="col l7 hide-on-med-and-down" style="height: 83px">
+                <div class="white" style="height: 300px; overflow-y: scroll; padding: 20px">
                     <i class="red-text" style="font-weight: 300">Wednesday,  September 20, 2015</i>
                     <p>Matthew Allen, liberal activist, is running for President in 2048. In his announcement speech, in his hometown of Andover, MA, Allen laid out his vision for the country. "It has come to a point in time where the rich are too rich, and the poor are too poor." "If we don't do something now, the middle class might not exist in 50 years." "We have the moral responsibility to protect our only planet Earth from harm." Those were some of the points Matthew Allen made recently during his speech.</p>
-                    </div>
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col m6 offset-m3">
-                <h4>The more, the merrier</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu diam sit amet leo mollis molestie sit amet a turpis. Donec mauris dui, mollis non risus ac, lacinia varius mauris.</p> <a class="flat">Pricing Options</a> </div>
-            <div class="col m12"> <img src="https://www.google.com/chromebook/static/images/features-bottom.jpg" class="center-block responsive-img" width="100%"> </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col m6 offset-m3">
-                <h4>The more, the merrier</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu diam sit amet leo mollis molestie sit amet a turpis. Donec mauris dui, mollis non risus ac, lacinia varius mauris.</p> <a class="flat">Pricing Options</a> </div>
-            <div class="col m12"> <img src="https://www.google.com/chromebook/static/images/features-bottom.jpg" class="center-block responsive-img" width="100%"> </div>
-        </div>
-        <section id="section2">
-            <div class="row">
-                <div class="card-panel teal" style="height: 80px; width: 80px; padding: 20px;">
-                    <div class="card-panel white">
-                        <div class="row">
-                            <p style="text-align: center">Month</p>
-                        </div>
-                        <div class="row">
-                            <p style="text-align: center">Day</p>
-                        </div>
-                        <div class="row">
-                            <h4 style="text-align: center">13</h4>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </section>
+            <!-- FOR SMALLER SIZES OUTSIDE OF BOXES -->
+            <p class="hide-on-large-only">Matthew Allen, liberal activist, is running for President in 2048. In his announcement speech, in his hometown of Andover, MA, Allen laid out his vision for the country. "It has come to a point in time where the rich are too rich, and the poor are too poor." "If we don't do something now, the middle class might not exist in 50 years." "We have the moral responsibility to protect our only planet Earth from harm." Those were some of the points Matthew Allen made recently during his speech.</p>
+        </div>
         <section id="section3">
             <br>
             <br>
             <br>
-            <div class="container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate diam eget nulla luctus, non auctor nunc rutrum. Nullam purus lorem, faucibus vitae luctus quis, dictum porta est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce pharetra sit amet ipsum ut lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sit amet nisi in libero scelerisque semper. Integer ut justo quis lectus viverra faucibus. Sed egestas, est id suscipit mattis, nunc tellus viverra ex, ut tempus enim augue eget nisi. Proin feugiat auctor enim eu semper.
+            <div class="container center">
+                <p>My site was created by two of my close friends at <a href="http://syntax-solutions.xyz">Syntax Solutions</a>. On behalf of my campaign and myself, <br><i>Thanks for Visiting</i>
                     <br> </p>
             </div>
             <br>
             <br>
             <br> </section>
     </div>
-    <footer class="page-footer blue-grey">
-        <div class="container">
-            <div class="row">
-                <div class="col l4 s12">
-                    <h5 class="white-text">About Us</h5>
-                    <p class="grey-text text-lighten-4">Stuff</p>
-                </div>
-                <div class="col l4 s12">
-                    <h5 class="white-text">Email Me</h5>
-                    <p class="grey-text text-lighten-4">Questions? Concerns? Suggestions?</p>
-                </div>
-                <div class="col l4 s12" style="overflow: hidden;">
-                    <h5 class="white-text">Connect</h5>
-                    <p class="grey-text text-lighten-4">Find us on social media</p>
-                    <br> </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container"> Syntax Solutions 2016 <a class="grey-text text-lighten-4 right" href="#!">Privacy</a> </div>
-        </div>
-    </footer>
+    <img src="http://matthewallen.neocities.org/Images/signature_48f8we9bbeiw0kxy6e.png" class="responsive-img center-block">
     <!--Import jQuery before materialize.js-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
