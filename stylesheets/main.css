@@ -150,7 +150,9 @@ p {
 img {
     border-radius: 3px;
 }
-
+.issues {
+    width: 240px !important
+}
 .side-nav a {
     color: darkslategrey !important;
 }
@@ -158,4 +160,12 @@ img {
     .highlight {
         width: auto !important
     }
+}
+.intro-issues {
+    background: url(Images/GreenMountainWindFarm_Fluvanna_2004.jpg) center center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: white;
 }
