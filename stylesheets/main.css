@@ -177,3 +177,51 @@ img {
     text-align: center;
     color: white;
 }
+.contactreps {
+    height: 300px !important;
+    background: url(/img/Electric%20Violet.png) center center;
+    width: 100% !important;
+    border-radius: 7px;
+    color: white;
+}
+.democratsorg {
+    height: 300px !important;
+    background: url(/img/Mild.jpg) center center;
+    width: 100% !important;
+    border-radius: 7px;
+    color: white;
+}
+.registertovote {
+    height: 300px !important;
+    background: url(/img/Dirty%20Fog.jpg) left center;
+    width: 100% !important;
+    border-radius: 7px;
+    color: white;
+}
+.getinvolved {
+    height: 300px !important;
+    background: url(/img/Sublime%20Light.jpg) center center;
+    width: 100% !important;
+    border-radius: 7px;
+    color: white;
+}
+.contactreps > h2 {
+    line-height: 300px !important;
+    text-align: center;
+    text-shadow: 2px 3px #3949AB;
+}
+.democratsorg > h2 {
+    line-height: 300px !important;
+    text-align: center;
+    text-shadow: 2px 3px #3949AB;
+}
+.registertovote > h2 {
+    line-height: 300px !important;
+    text-align: center;
+    text-shadow: 2px 3px #3949AB;
+}
+.getinvolved > h2 {
+    line-height: 300px !important;
+    text-align: center;
+    text-shadow: 2px 3px #3949AB;
+}
