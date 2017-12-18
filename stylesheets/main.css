@@ -179,28 +179,28 @@ img {
 }
 .contactreps {
     height: 300px !important;
-    background: url(/img/Electric%20Violet.png) center center;
+    background: url(../img/Electric%20Violet.png) center center;
     width: 100% !important;
     border-radius: 7px;
     color: white;
 }
 .democratsorg {
     height: 300px !important;
-    background: url(/img/Mild.jpg) center center;
+    background: url(../img/Mild.jpg) center center;
     width: 100% !important;
     border-radius: 7px;
     color: white;
 }
 .registertovote {
     height: 300px !important;
-    background: url(/img/Dirty%20Fog.jpg) left center;
+    background: url(../img/Dirty%20Fog.jpg) left center;
     width: 100% !important;
     border-radius: 7px;
     color: white;
 }
 .getinvolved {
     height: 300px !important;
-    background: url(/img/Sublime%20Light.jpg) center center;
+    background: url(../img/Sublime%20Light.jpg) center center;
     width: 100% !important;
     border-radius: 7px;
     color: white;
